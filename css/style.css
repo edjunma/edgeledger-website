@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin:0;
   padding: 0;
 }
 
@@ -11,7 +11,7 @@ body {
   line-height: 1.4;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 .text-center {
-  text-align: center;
+  text-align:center;
 }
 
 .text-primary {
@@ -71,9 +71,9 @@ p {
 .py-2 { padding: 2rem 0; }
 .py-3 { padding: 3rem 0; }
 
-.p1 { padding: 1.5rem; }
-.p2 { padding: 2rem; }
-.p3 { padding: 3rem; }
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
 
 .btn {
   display: inline-block;
@@ -107,7 +107,7 @@ p {
 #navbar {
   display: flex;
   position: sticky;
-  top: 0;
+  top:0;
   background: #333;
   color: #fff;
   justify-content: space-between;
@@ -147,11 +147,10 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
-
   /* Overlay */
   position: absolute;
   top: 65px;
-  left: 0;
+  left:0;
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.4);
@@ -163,7 +162,7 @@ p {
   padding: 1rem;
 }
 
-#what .item .item {
+#what .items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
@@ -205,8 +204,7 @@ p {
   display: flex;
 }
 
-#contact .map,
-#contact .contact-form {
+#contact .map, #contact .contact-form {
   flex: 1;
 }
 
@@ -218,8 +216,8 @@ p {
   display: block;
 }
 
-#contact .contact-form input, 
+#contact .contact-form input,
 #contact .contact-form textarea {
-  widtH: 100%;
+  width: 100%;
   padding: 0.5rem;
 }
